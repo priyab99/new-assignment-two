@@ -197,6 +197,7 @@ nav li a{
     color: #424242;
     font-size: 20px;
 }
+/*footer-section*/
 .footer-title{
     text-align: center;
     padding-left: 400px;
@@ -205,6 +206,28 @@ nav li a{
 .footer-title h4{
     font-size: 45px;
     padding-bottom: 10px;
+}
+.my-section{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 10px;
+    padding-left: 420px;
+    padding-top: 20px;
+}
+.my-section-info{
+    background-color: aqua;
+    border: 0;
+    width: 200px;
+    height: 200px;
+}
+.my-section-info h3{
+    color: #727272;
+    font-size: 45px;
+    padding-bottom: 10px;
+}
+.my-section-info p{
+    color: beige;
+    font-size: 20px;
 }
 .sponsors{
     display: grid;
