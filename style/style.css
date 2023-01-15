@@ -93,6 +93,13 @@ nav li a{
     color: orange;
 }
 /*second section*/
+.section-two{
+      
+    width: 1440px;
+   height: 1068px;
+   padding-bottom: 145px;
+}
+
 .section-two-class{
     display: flex;
     gap:20px;
@@ -100,9 +107,25 @@ nav li a{
     padding-left: 240px;
     padding-right: 240px;
 }
+.highlighter{
+    position: relative;
+    left: 30px;
+}
+.highlighter button{
+    border: 0;
+    width: 5px;
+    height: 106px;
+    background-color: #FF900E;
+}
+.class1-container h2{
+    padding-left:25px;
+}
 .class-1 h2{
-    font-size: 45px
+    font-size: 45px;
 
+}
+.class1-container p{
+    padding-left: 10px;
 }
 .box-classes{
     display: grid;
@@ -122,7 +145,9 @@ nav li a{
     padding: 30px 30px 30px 30px;
 }
 .button{
-    padding-left: 880px;
+    position: absolute;
+    left: 880px;
+    top:200px;
 }
 
 .bigger-button{
@@ -157,9 +182,20 @@ nav li a{
     border: 1px solid #FF900E;
     border-radius: 8px;
 
+    
 }
 .boxes-info{
     padding: 45px 36px 59px 35px;
+}
+.boxes-info h3{
+    font-size: 45px;
+    color: #424242;
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+.boxes-info p{
+    color: #424242;
+    font-size: 20px;
 }
 .footer-title{
     text-align: center;
