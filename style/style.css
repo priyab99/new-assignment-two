@@ -262,10 +262,77 @@ nav li a{
     text-align: center;
     padding-top: 39px;
 }
+/*for mobile decice*/
 @media screen and (max-width: 577px){
-    .nav ul{
-        padding-right: 500px;
+    body{
+        margin: 0 auto;
     }
+    .header{
+        width: 100%;
+    }
+    .header-title{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        padding-left: 10px;
+    }
+    .header-name{
+        padding-left: 10px;
+    }
+    .header-title ul{
+        display: flex;
+    }
+
+    .header-image{
+        padding: 0;
+        width: 100%;
+        padding-right: 0;
+
+    }
+    .teams{
+        margin-top: 100px;
+    }
+    
+
+    .section-one-class, .teams{
+        padding-top: 10px;
+        display: grid;
+
+        grid-template-columns: repeat(1,1fr);
+        padding-left: 0;
+        padding-left: 30px;
+    }
+    .section-two-class{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        padding-left: 10px;
+    }
+    .button{
+        padding-left: 20px;
+        visibility: visible;
+    }
+    .third-section-class-1{
+          margin-top: 1000px;
+          padding-left: 20px;
+    }
+    .third-section-boxes{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        row-gap: 10px;
+        padding-left: 50px;
+    }
+    .footer-title{
+        padding-left: 30px;
+    }
+    .my-section, .sponsors{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        padding-left: 60px;
+        row-gap: 20px;
+    }
+    .footer-end{
+        padding: 0;
+    }
+
 
 
 }
