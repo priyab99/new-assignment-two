@@ -2,6 +2,7 @@
     font-family: 'Work Sans';
     margin: 0;
 }
+/*header*/
 .header{
     width: 1920px;
     height: 1322px; 
@@ -160,6 +161,7 @@ nav li a{
     position: relative;
     left: 800px;
 }
+/*third section*/
 .third-section-class-1{
     padding-left: 240px;
     font-size:45px ;
@@ -183,10 +185,21 @@ nav li a{
     border-radius: 8px;
 
     
+
+
 }
+.boxes:hover{
+
+    border: 3px solid blue;
+}
+
 .boxes-info{
     padding: 45px 36px 59px 35px;
 }
+.boxes-hover:hover{
+    border: 2px solid blue;
+}
+
 .boxes-info h3{
     font-size: 45px;
     color: #424242;
@@ -215,7 +228,7 @@ nav li a{
     padding-top: 20px;
 }
 .my-section-info{
-    background-color: aqua;
+    background-color: skyblue;
     border: 0;
     width: 200px;
     height: 200px;
@@ -226,7 +239,7 @@ nav li a{
     padding-bottom: 10px;
 }
 .my-section-info p{
-    color: beige;
+    color: black;
     font-size: 20px;
 }
 .sponsors{
@@ -249,3 +262,11 @@ nav li a{
     text-align: center;
     padding-top: 39px;
 }
+@media screen and (max-width: 577px){
+    .nav ul{
+        padding-right: 500px;
+    }
+
+
+}
+    
